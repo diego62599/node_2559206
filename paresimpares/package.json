@@ -1,0 +1,15 @@
+{
+  "name": "crear_archivo2",
+  "version": "1.0.0",
+  "description": "generar  100 numeros, mayores a 17 en un archivo mayors sino en uno menores",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mayores",
+    "menores"
+  ],
+  "author": "jstt",
+  "license": "ISC"
+}
