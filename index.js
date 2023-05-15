@@ -11,9 +11,9 @@ hbs.registerPartials(__dirname+ '/public/views/partials');
 
 
 app.get('/', (req , res) => {
-    res.write ('Home',
+    res.render ('home',
     {
-      titulo : 'Home',
+      titulo : 'home',
       nombre:'Diego Betancur'  
     }) 
 })
@@ -22,4 +22,5 @@ app.listen (puerto, () => {
     console.log (`Escuchando el puerto ${puerto}`)
 
 } )
+
 
